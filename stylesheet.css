@@ -1,0 +1,50 @@
+/* navigation menu */
+nav { 
+    text-align: center;
+    border: 2px black;
+    border-style: solid;
+}
+li {
+    padding: 5px;
+    display: inline;
+}
+li a {
+    text-decoration: none;
+}
+
+/* main page */
+html.mainbackground {
+    background-color: aqua;
+}
+
+h1.mainh1 {
+    color: darkblue;
+    font-family: monospace;
+    text-align: center;
+}
+
+/* header 2 */
+h2.mainh2 {
+    font-family: 'Courier New', Courier, monospace;
+}
+
+
+/* travel page */
+html.travelstyle {
+    background-image: url("parisoverlook.jpeg");
+    font-family: Georgia, 'Times New Roman', Times, serif
+}
+h1.travelh1 {
+    text-align: center;
+    border: 2px;
+    border-style: solid;
+}
+
+
+
+
+
+/* hobbies page */
+
+
+/* tv show page */
