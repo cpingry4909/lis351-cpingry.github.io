@@ -9,23 +9,66 @@ li {
     display: inline;
 }
 li a {
+    color: black;
+    font-style: italic;
     text-decoration: none;
+    font-size: medium;
 }
 
 /* main page */
 html.mainbackground {
+    padding: 5px;
+    margin: 2px;
     background-color: aqua;
-}
-
-h1.mainh1 {
     color: darkblue;
     font-family: monospace;
+}
+nav.mainnav {
+    border: 1px darkblue;
+    border-style: solid
+}
+li a.mainnav {
+    color: darkblue;
+}
+h1.mainh1 {
     text-align: center;
 }
-
-/* header 2 */
 h2.mainh2 {
+    padding: 2px;
+    border: 1px darkblue solid;
     font-family: 'Courier New', Courier, monospace;
+    text-align: center;
+}
+p.mainp1 {
+    padding: 5px;
+    border: 1px darkblue solid;
+    font-size: medium;
+    text-align: center;
+}
+div.maindiv {
+    padding: 2px;
+    border: 1px darkblue solid;
+    text-align: left;
+}
+li.funfacts {
+    list-style-type: square;
+    display: list-item;
+}
+h4 {
+    padding: 2px;
+    border: 1px darkblue solid;
+    text-align: center;
+}
+.mainpics {
+    padding: 3px;
+    border: 1px darkblue solid;
+    display: block;
+    margin-left: auto;
+    margin-right: auto; 
+}
+figcaption {
+    padding-bottom: 20px;
+    text-align: center;
 }
 
 
@@ -48,3 +91,30 @@ h1.travelh1 {
 
 
 /* tv show page */
+html.tvbackground {
+    padding: 2px;
+    border: 2px white;
+    font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    background:black;
+    color: white;
+}
+h1.tvh1 {
+    text-align: center;
+}
+nav.tvnav {
+    border: 1px white;
+    border-style: solid;
+}
+li a.tvnav {
+    color: white;
+}
+.column {
+    /* border: 1px white solid; */
+    float: left;
+    width: 50%;
+}
+.row:after {
+    content: "";
+    display: table;
+    clear: both;
+}
