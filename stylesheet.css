@@ -15,6 +15,8 @@ li a {
     font-size: medium;
 }
 
+
+
 /* main page */
 html.mainbackground {
     padding: 5px;
@@ -54,7 +56,7 @@ li.funfacts {
     list-style-type: square;
     display: list-item;
 }
-h4 {
+h4.mainh4 {
     padding: 2px;
     border: 1px darkblue solid;
     text-align: center;
@@ -72,26 +74,122 @@ figcaption {
 }
 
 
+
 /* travel page */
 html.travelstyle {
     background-image: url("parisoverlook.jpeg");
-    font-family: Georgia, 'Times New Roman', Times, serif
+    font-family: cursive, serif;
 }
 h1.travelh1 {
     text-align: center;
-    border: 2px;
-    border-style: solid;
+    border: 1px lightgray solid;
+    background-color: lightgray;
 }
-
+nav.travelnav {
+    border: 1px lightgray solid;
+    background-color: lightgray;
+    margin-left: 200px;
+    margin-right: 600px;
+}
+div.travelh2 {
+    margin-right: 600px;
+    margin-left: 200px;
+    margin-top: 20px;
+    padding: 5px;
+    text-align: center;
+    border: 1px lightgray solid;
+    background-color: lightgray;
+    font-size: small;
+}
+div.travelh3 {
+    margin-right: 600px;
+    margin-left: 200px;
+    margin-top: 20px;
+    padding: 5px;
+    text-align: center;
+    border: 1px lightgray solid;
+    background-color: lightgray;
+    font-size: smaller;
+}
+div.travelh4 {
+    margin-right: 600px;
+    margin-left: 200px;
+    margin-top: 20px;
+    padding: 5px;
+    text-align: center;
+    border: 1px lightgray solid;
+    background-color: lightgray;
+    font-size: small;
+}
+img.travelpics {
+    margin-right: 600px;
+    margin-left: 375px;
+    margin-top: 20px;
+    padding: 2px;
+    text-align: center;
+    border: 1px lightgray solid;
+    background-color: lightgray;
+}
 
 
 
 
 /* hobbies page */
+html.hobbymain {
+    margin-left: 400px;
+    margin-right: 400px;
+    background-color: lightgreen;
+    padding: 2px;
+    color: purple;
+    font-family: sans-serif, serif;
+}
+h1.hobbyh1 {
+    padding: 5px;
+    transform:skew(30deg, 0deg) scaleY(1);
+    text-align: center;
+
+}
+nav.hobbynav {
+    border-radius: 10px;
+    border: 1px purple solid;
+}
+li a.hobbynav {
+    color: purple;
+}
+h2.hobbyh2 {
+    text-align: center;
+    
+}
+section {
+    padding: 5px;
+    text-align: center;
+    padding: 5px;
+    border: 1px purple solid;
+    border-radius: 10px;
+}
+dt {
+    padding: 2px;
+    transform:skew(30deg, 0deg) scaleY(1);
+    text-align: left;
+    font-size:larger;
+    font-weight: 700;
+    text-decoration: underline;
+}
+img.hobbypics {
+    padding: 10px;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 20px;
+    border: 1px purple solid;
+    border-radius: 10px;
+}
+
 
 
 /* tv show page */
 html.tvbackground {
+    margin-left: 400px;
+    margin-right: 400px;
     padding: 2px;
     border: 2px white;
     font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
@@ -109,7 +207,6 @@ li a.tvnav {
     color: white;
 }
 .column {
-    /* border: 1px white solid; */
     float: left;
     width: 50%;
 }
@@ -117,4 +214,53 @@ li a.tvnav {
     content: "";
     display: table;
     clear: both;
+}
+p.synop {
+    padding-top: 10px;
+    padding-left: 10px;
+    padding-right: 10px;
+    padding-bottom: 38px;
+    border: 1px white solid;
+    border-top-left-radius: 25px;
+}
+p.reason {
+    padding: 10px;
+    padding-bottom: 87px;
+    border: 1px white solid;
+    border-bottom-left-radius: 25px;;
+}
+ul.tvpros {
+    padding-bottom: 31px;
+    padding-top: 5px;
+    padding-left: 20px;
+    border: 1px white solid;
+    border-top-right-radius: 25px;
+}
+li.tvpros {
+    list-style-type: circle;
+    display: list-item;
+}
+dl.tvrate {
+    padding: 10px;
+    border: 1px white solid;
+    border-bottom-right-radius: 25px;
+}
+dt.tvrate {
+    font-size: medium;
+    text-decoration: none;
+    transform:skew(0deg, 0deg) scaleY(1);
+}
+div.inspo {
+    margin-top: 100px;
+}
+h3.tvh3 {
+    text-align: center;
+}
+img.ozarksym {
+    padding: 2px;
+    border: 1px white solid;
+    margin-left: auto;
+    margin-right: auto;
+    display: block;
+
 }
